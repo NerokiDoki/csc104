@@ -1,0 +1,60 @@
+/* Body section is used to style over all font, background and boarder format */
+body{
+	font-size: 25px;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+	color: #000000;
+	font-weight: normal;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: capitalize;
+	background: #2863CE;
+	background: -moz-radial-gradient(center, #2863CE, #B9B9B9);
+	background: -webkit-radial-gradient(center, #2863CE, #B9B9B9);
+	background: radial-gradient(ellipse at center, #2863CE, #B9B9B9);
+	border: 15px ridge #1C08A4;
+	border-radius: 27px;
+}
+
+/* h1-h4 is used to style the headers text, text color, shadow, shadow color and font */
+h1{
+	color: #000000;
+	text-shadow:0 0 2px blue;
+	font-family:"Comic Sans MS", "Comic Sans", cursive;
+	font-weight: 700;
+}
+
+h2{
+	color: #000000;
+	text-shadow:0 0 2px green;
+	font-family:"Comic Sans MS", "Comic Sans", cursive;
+	font-weight: 700;
+}
+
+h3{
+	color: #000000;
+	text-shadow:0 0 2px red;
+	font-family:"Comic Sans MS", "Comic Sans", cursive;
+	font-weight: 700;
+}
+
+h4{
+	color: #000000;
+	text-shadow:0 0 2px black;
+	font-family:"Comic Sans MS", "Comic Sans", cursive;
+	font-weight: 700;
+}
+
+/* p is used to style the paragraphs text, text color, shadow, shadow color and font */
+p{
+	color: #000000;
+	text-shadow:0 0 0px blue;
+	font-family:"Arial Narrow", sans-serif;
+	font-weight: 400;
+}
+
+/* changes the color for a visted link*/
+a:visited{
+	color: aqua;
+}
